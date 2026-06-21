@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#1e3a5f;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+    font-weight:bold;
+}
+
+.banner{
+    background:url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da') center/cover;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.banner h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.banner button,
+.pesquisa button,
+.card button,
+.formulario button{
+    background:#d4a017;
+    border:none;
+    padding:12px 20px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+.pesquisa{
+    text-align:center;
+    margin:30px;
+}
+
+.pesquisa input{
+    padding:12px;
+    width:300px;
+}
+
+.livros-destaque{
+    padding:40px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    
+}
+
+.card{
+    background:white;
+    width:220px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.sobre{
+    padding:40px;
+    text-align:center;
+    background:white;
+}
+
+footer{
+    background:#1e3a5f;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.admin-container{
+    display:flex;
+}
+
+.sidebar{
+    width:220px;
+    background:#1e3a5f;
+    color:white;
+    min-height:100vh;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+.sidebar li{
+    margin:15px 0;
+}
+
+.admin-main{
+    flex:1;
+    padding:30px;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+    margin:20px 0;
+}
+
+.stat-card{
+    background:white;
+    padding:20px;
+    flex:1;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius:10px;
+}
+
+.formulario{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    margin-bottom:30px;
+}
+
+.formulario input{
+    display:block;
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+}
+
+.tabela-livros table{
+    width:100%;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.tabela-livros th,
+.tabela-livros td{
+    padding:15px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.tabela-livros th{
+    background:#1e3a5f;
+    color:white;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="admin-container">
+
+        <aside class="sidebar">
+            <h2>📘 Admin</h2>
+            <ul>
+                <li>Dashboard</li>
+                <li>Cadastrar Livro</li>
+                <li>Usuários</li>
+                <li>Empréstimos</li>
+                <li>Relatórios</li>
+            </ul>
+        </aside>
+
+        <main class="admin-main">
+            <h1>Painel Administrativo</h1>
+
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>250</h3>
+                    <p>Livros</p>
+                </div>
+                <div class="stat-card">
+                    <h3>89</h3>
+                    <p>Usuários</p>
+                </div>
+                <div class="stat-card">
+                    <h3>32</h3>
+                    <p>Empréstimos</p>
+                </div>
+            </div>
+
+            <section class="formulario">
+                <h2>Cadastrar Novo Livro</h2>
+                <input type="text" placeholder="Nome do Livro">
+                <input type="text" placeholder="Autor">
+                <input type="text" placeholder="Categoria">
+                <input type="number" placeholder="Quantidade">
+                <input type="text" placeholder="URL da Imagem">
+                <button>Salvar Cadastro</button>
+            </section>
+
+            <section class="tabela-livros">
+                <h2>Livros Cadastrados</h2>
+                <table>
+                    <tr>
+                        <th>Livro</th>
+                        <th>Autor</th>
+                        <th>Categoria</th>
+                        <th>Quantidade</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Dom Casmurro</td>
+                        <td>Machado de Assis</td>
+                        <td>Romance</td>
+                        <td>10</td>
+                        <td>Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>Harry Potter</td>
+                        <td>J.K Rowling</td>
+                        <td>Fantasia</td>
+                        <td>8</td>
+                        <td>Disponível</td>
+                    </tr>
+                    <tr>
+                        <td>O Pequeno Príncipe</td>
+                        <td>Antoine</td>
+                        <td>Infantil</td>
+                        <td>5</td>
+                        <td>Disponível</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
