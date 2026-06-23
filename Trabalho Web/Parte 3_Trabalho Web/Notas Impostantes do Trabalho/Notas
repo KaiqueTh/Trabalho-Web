@@ -1,0 +1,19 @@
+Senha página Admin: admin123
+
+Nesta parte 3 do trabalho fizemos a implementação do banco de dados atravéz do site SUPABASE.
+Criamos o banco de dados com os Livros disponibilizados pela Biblioteca, onde ao a pessoa
+solicitar o livro pelo site, o emprestimo do livro já é gerado no SUPABASE. E a partir daí
+a pessoa responsável pelo site irá fazer uso do contato, ou email (que são enviados pelo
+cliente ao solicitar o imprestimo) para assim providenciar o envio do livro ao cliente.
+
+Esse é o meu primeiro site, ainda mais com banco de dados. Fico muito agradecido pelos
+ensinamentos passados pelas aulas. Sei que faltaram alguns pontos em questão ao site, mais
+só de ver ele montado, já fico feliz.
+
+"O sistema possui duas tabelas principais: livros e emprestimos. 
+Os empréstimos são vinculados aos livros por meio de uma chave estrangeira (livro_id). 
+O site foi integrado ao Supabase utilizando JavaScript, permitindo registrar empréstimos
+diretamente no banco de dados."
+
+Não consegui achar a opção de compartilhar o banco de dados para o senhor analisar, mais
+coloquei anexado aqui as imagens.
